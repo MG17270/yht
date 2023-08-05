@@ -59,7 +59,7 @@ class WZMLStyle:
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
+    BOT_LIMITS = '''⌬ <b><i>BOT LIMITS :</i></b>
 ┠ <b>Direct Limit :</b> {DL} GB
 ┠ <b>Torrent Limit :</b> {TL} GB
 ┠ <b>GDrive Limit :</b> {GL} GB
@@ -177,7 +177,7 @@ class WZMLStyle:
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
-
+    OWNER =          '\n{META}
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
     TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
@@ -186,8 +186,8 @@ class WZMLStyle:
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>RAM:</b> {ram}% | '
     uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL}/s | '
-    UL =                        '<b>UL:</b> {UL}/s'
+    DL = '\n┖ <b>DL:</b> {DL 📥}/s | '
+    UL =                        '<b>UL:</b> {UL 📤}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
