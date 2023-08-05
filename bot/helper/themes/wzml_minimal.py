@@ -186,8 +186,8 @@ class WZMLStyle:
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>RAM:</b> {ram}% | '
     uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL 📥}/s | '
-    UL =                        '<b>UL:</b> {UL 📤}/s'
+    DL = '\n┖ <b>DL 📥:</b> {DL}/s | '
+    UL =                        '<b>UL 📤:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
